@@ -31,7 +31,7 @@ class MultimediaController extends AbstractController
         
         return $response;
     }
-
+    //La funcion de abajo sirve para subir un archivo a la base de datos
     public function FileUpload(Request $request){
         $objImagen = [];
         $idArticulo = $request->request->get('id');
