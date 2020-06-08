@@ -1,0 +1,49 @@
+index:
+    path: /
+    controller: App\Controller\HomeController::index
+
+Categoria:
+    path: /categoria
+    controller: App\Controller\CategoriaController::index
+
+Articulo:
+    path: /articulo
+    controller: App\Controller\ArticuloController::index
+
+ArticuloObtenerJson:
+    path: /articulo/obtenerjson
+    controller: App\Controller\ArticuloController::obtenerjson
+
+Multimedia:
+    path: /multimedia
+    controller: App\Controller\MultimediaController::index
+
+MultimediaJson:
+    path: /multimedia/ObtenerJsonMultimedia
+    controller: App\Controller\MultimediaController::index
+
+MultimediaFileUpload:
+    path: /multimedia/FileUpload
+    controller: App\Controller\MultimediaController::FileUpload
+
+# MultimediaNuevo:
+#     path: /multimedia/nuevo/{id?}
+#     controller: App\Controller\MultimediaController::InsertUpdate        
+   
+# MultimediaEditar:
+#     path: /multimedia/editar/{id?}
+#     controller: App\Controller\MultimediaController::InsertUpdate        
+
+# MultimediaGuardarPost:
+#     path: /multimedia/guardar
+#     controller: App\Controller\MultimediaController::InsertUpdatePost        
+#     methods: [POST]
+
+# MultimediaBorrar:
+#     path: /multimedia/borrar/{id}
+#     controller: App\Controller\MultimediaController::Borrar
+  
+# MultimediaList:
+#     path: /multimedia/{idarticulo?}
+#     controller: App\Controller\MultimediaController::Index
+

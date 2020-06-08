@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ArticulosController!{% endblock %}
+
+
+{% block body %}
+    <div class="row p-5">
+        <div class="col-12">
+            <button id="btnNuevo" type="button" class="btn btn-success">Nuevo</button>
+        </div>
+    </div>
+    <div class="row p-5">        
+        <div class="col-12">
+            <div class="row">
+                <div class="col-3">Titulo</div><br><br>
+                <div class="col-4">Descripcion</div><br><br>
+                <div class="col-2">Categoria</div><br><br>
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+        <div id="listaArticulo" class="col-12">
+
+        </div>
+        <div id="pagArticulo" class="col-12">
+
+        </div>
+    </div>
+        
+{% endblock %}
+{% block javascripts %}
+    <script src="/js/articulo.js"></script>
+{% endblock %}
